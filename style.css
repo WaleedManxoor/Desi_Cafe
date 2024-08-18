@@ -316,4 +316,124 @@ html,body{
     width: 50%;
 }
 
+/* ice-coffee  */
+.ice-coffee {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column; 
+}
+.h1-ice-coffee {
+    color: rgb(53, 10, 10);
+    font-size: 30px;
+    text-align: center; 
+    margin: 20px 0; 
+    margin-bottom: 50px;
+}
+.ice-coffee-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.ice-coffee1{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 230px;
+    height: 230px;
+    /* border-radius: 7px; */
+    position: relative; 
+    transition: 0.8s;
+}
+.ice-coffee1 img{
+    position: absolute; 
+    width: 80px;
+    bottom: 20%;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+.ice-coffee1 h1{
+    color: rgb(53, 10, 10);
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
 
+
+.ice-coffee2{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 230px;
+    height: 230px;
+    /* border-radius: 7px; */
+    position: relative; 
+    transition: 0.8s;
+}
+.ice-coffee2 img{
+    position: absolute; 
+    width: 90px;
+    bottom: 20%;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+.ice-coffee2 h1{
+    color: rgb(53, 10, 10);
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+
+
+.ice-coffee3{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 230px;
+    height: 230px;
+    /* border-radius: 7px; */
+    position: relative; 
+    transition: 0.8s;
+}
+.ice-coffee3 img{
+    position: absolute; 
+    width: 80px;
+    bottom: 25%;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+.ice-coffee3 h1{
+    color: rgb(53, 10, 10);
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+}
+
+
+.ice-coffee4{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 230px;
+    height: 230px;
+    /* border-radius: 7px; */
+    position: relative; 
+    transition: 0.8s;
+}
+.ice-coffee4 img{
+    position: absolute; 
+    width: 80px;
+    bottom: 25%;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+.ice-coffee4 h1{
+    color: rgb(53, 10, 10);
+    position: absolute;
+    bottom: 5%;
+    left: 38%;
+}
+.ice-coffee1:hover, .ice-coffee2:hover, .ice-coffee3:hover, .ice-coffee4:hover {
+    background-color: #fff;
+    transform: scale(1.2); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+}
