@@ -444,6 +444,7 @@ html,body{
     height: auto;
     display: flex;
     flex-direction: column; 
+    margin-bottom: 150px;
 }
 .beans-h1 {
     color: rgb(53, 10, 10);
@@ -461,90 +462,111 @@ html,body{
 }
 .beans1{
     /* border: 1px solid black; */
-    background-color: #6f4e37;
-    width: 200px;
-    height: 150px;
+    background: linear-gradient(130deg, #4b2e39, #6f4e37, #b38867, #e0c3a3);
+    width: 250px;
+    height: 250px;
     border-radius: 7px;
     position: relative; 
     transition: 0.8s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 .beans1 img{
     position: absolute; 
-    width: 120px;
-    bottom: 60%;
+    width: 180px;
+    bottom: 10%;
     left: 50%; 
     transform: translateX(-50%);
 }
 .beans1 h1{
-    color: white;
+    color: rgb(53, 10, 10);
     position: absolute;
-    bottom: 30%;
-    left: 20%;
+    bottom: 10%;
+    left: 30%;
 }
 
 .beans2{
-    border: 1px solid black;
-    width: 200px;
-    height: 150px;
+    background: linear-gradient(130deg, #4b2e39, #6f4e37, #b38867, #e0c3a3);
+    width: 250px;
+    height: 250px;
     border-radius: 7px;
     position: relative; 
     transition: 0.8s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 .beans2 img{
     position: absolute; 
-    width: 120px;
-    bottom: 60%;
+    width: 180px;
+    bottom: 10%;
     left: 50%; 
     transform: translateX(-50%);
 }
 .beans2 h1{
-    color: white;
+    color: rgb(53, 10, 10);
     position: absolute;
-    bottom: 30%;
-    left: 20%;
+    bottom: 10%;
+    left: 30%;
 }
 
 .beans3{
-    border: 1px solid black;
-    width: 200px;
-    height: 150px;
+    background: linear-gradient(130deg, #4b2e39, #6f4e37, #b38867, #e0c3a3);
+    width: 250px;
+    height: 250px;
     border-radius: 7px;
     position: relative; 
     transition: 0.8s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 .beans3 img{
     position: absolute; 
-    width: 120px;
-    bottom: 60%;
+    width: 180px;
+    bottom: 10%;
     left: 50%; 
     transform: translateX(-50%);
 }
 .beans3 h1{
-    color: white;
+    color: rgb(53, 10, 10);
     position: absolute;
-    bottom: 30%;
-    left: 20%;
+    bottom: 10%;
+    left: 30%;
 }
 
 
 .beans4{
-    border: 1px solid black;
-    width: 200px;
-    height: 150px;
+    background: linear-gradient(130deg, #4b2e39, #6f4e37, #b38867, #e0c3a3);
+    width: 250px;
+    height: 250px;
     border-radius: 7px;
     position: relative; 
     transition: 0.8s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 .beans4 img{
     position: absolute; 
-    width: 120px;
-    bottom: 60%;
+    width: 180px;
+    bottom: 10%;
     left: 50%; 
     transform: translateX(-50%);
 }
 .beans4 h1{
-    color: white;
+    color: rgb(53, 10, 10);
     position: absolute;
-    bottom: 30%;
-    left: 20%;
+    bottom: 10%;
+    left: 30%;
+}
+
+/* footer  */
+.footer{
+    width: 100%;
+    height: 200px;
+    background-image: url(./img/footer_bg.jpg);
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.footer-blank{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(32, 30, 30, 0.712);
 }
