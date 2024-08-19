@@ -437,3 +437,114 @@ html,body{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     border: 2px solid black;
 }
+
+/* beans */
+.beans {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column; 
+}
+.beans-h1 {
+    color: rgb(53, 10, 10);
+    font-size: 30px;
+    text-align: center; 
+    margin: 150px 0; 
+    margin-bottom: 50px;
+}
+.beans-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.beans1{
+    /* border: 1px solid black; */
+    background-color: #6f4e37;
+    width: 200px;
+    height: 150px;
+    border-radius: 7px;
+    position: relative; 
+    transition: 0.8s;
+}
+.beans1 img{
+    position: absolute; 
+    width: 120px;
+    bottom: 60%;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+.beans1 h1{
+    color: white;
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+}
+
+.beans2{
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    border-radius: 7px;
+    position: relative; 
+    transition: 0.8s;
+}
+.beans2 img{
+    position: absolute; 
+    width: 120px;
+    bottom: 60%;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+.beans2 h1{
+    color: white;
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+}
+
+.beans3{
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    border-radius: 7px;
+    position: relative; 
+    transition: 0.8s;
+}
+.beans3 img{
+    position: absolute; 
+    width: 120px;
+    bottom: 60%;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+.beans3 h1{
+    color: white;
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+}
+
+
+.beans4{
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    border-radius: 7px;
+    position: relative; 
+    transition: 0.8s;
+}
+.beans4 img{
+    position: absolute; 
+    width: 120px;
+    bottom: 60%;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+.beans4 h1{
+    color: white;
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+}
