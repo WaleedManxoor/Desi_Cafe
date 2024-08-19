@@ -981,16 +981,17 @@ body {
     /* beans description  */
 
     .beans-description-left img {
-        width: 400px;
+        width: 200px;
       }
       .beans-description-right {
         width: 50%;
+        padding-bottom: 250px;
       }
       .beans-description-right p {
         position: absolute;
-        top: 210%;
-        right: 20%;
-        font-size: 17px;
+        top: 205%;
+        right: 5%;
+        font-size: 13px;
       }
       .beans-description-right a {
         position: absolute;
@@ -1024,4 +1025,42 @@ body {
      left: 23%;
      font-size: 12px;
    }
+
+   .beans1, .beans2, .beans3, .beans4 {
+    width: 90px;
+    height: 110px;
+    position: relative;
+  }
+  .beans1 img, .beans2 img, .beans3 img, .beans4 img {
+    position: absolute;
+    width: 80px;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .beans1 h1, .beans2 h1, .beans3 h1, .beans4 h1 {
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    font-size: 15px;
+  }
+  footer .privacy h3,
+  .about-us h3,
+  .info h3,
+  .w-w-o h3 {
+    font-size: 12px;
+  }
+  footer .privacy ul li a,
+  .about-us ul li a,
+  .info ul li a,
+  .w-w-o ul li a {
+    font-size: 12px;
+  }
+  footer .privacy ul li a img,
+  .about-us ul li a img,
+  .info ul li a img,
+  .w-w-o ul li a img{
+    width: 30px;
+  }
 }
+
