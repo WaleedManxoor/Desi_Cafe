@@ -289,7 +289,7 @@ body {
   width: 50%;
 }
 .beans-description-right p {
-  position: absolute;
+  position: relative;
   top: 200%;
   left: 50%;
   color: rgb(77, 7, 7);
@@ -298,7 +298,7 @@ body {
 }
 .beans-description-right a {
   position: absolute;
-  top: 218%;
+  top: -200%;
   right: 41%;
   color: rgb(77, 7, 7);
   padding: 10px 20px;
@@ -1026,6 +1026,7 @@ body {
      font-size: 12px;
    }
 
+   /* beans  */
    .beans1, .beans2, .beans3, .beans4 {
     width: 90px;
     height: 110px;
@@ -1044,6 +1045,8 @@ body {
     left: 20%;
     font-size: 15px;
   }
+
+  /* footer  */
   footer .privacy h3,
   .about-us h3,
   .info h3,
@@ -1064,3 +1067,169 @@ body {
   }
 }
 
+@media (max-width: 375px) {
+
+  /* navbar  */
+  .navbar img {
+      width: 50px;
+      margin-left: 20px;
+    }
+    .nav-links {
+      margin-left: 5%;
+    }
+    .nav-links a {
+      padding: 3px 7px;
+      font-size: 10px;
+      margin: 3px;
+    }
+
+    /* home  */
+    .hm-left a {
+      position: absolute;
+      top: 45%;
+      left: 4%;
+    }
+
+    /* beans description  */
+    .beans-description-left img {
+      width: 170px;
+    }
+    .beans-description-right p {
+      position: absolute;
+      top: 205%;
+      right: 2%;
+      font-size: 11px;
+    }
+    .beans-description-right a {
+      position: absolute;
+      top: 227%;
+      right: 20%;
+    }
+
+    /* beans  */
+    .beans1, .beans2, .beans3, .beans4 {
+      width: 70px;
+      height: 100px;
+      position: relative;
+    }
+    .beans1 img, .beans2 img, .beans3 img, .beans4 img {
+      position: absolute;
+      width: 60px;
+      bottom: 10%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .beans1 h1, .beans2 h1, .beans3 h1, .beans4 h1 {
+      position: absolute;
+      bottom: 10%;
+      left: 20%;
+      font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+  /* coffee  */
+  .coffee1,
+  .coffee2,
+  .coffee3,
+  .coffee4,
+  .coffee5,
+  .coffee6 {
+    width: 90px;
+    height: 100px;
+    margin-left: 30px;
+  }
+  .coffee1 img,
+  .coffee2 img,
+  .coffee3 img,
+  .coffee4 img,
+  .coffee5 img,
+  .coffee6 img {
+    position: absolute;
+    width: 60px;
+    bottom: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .coffee1 h1,
+  .coffee2 h1,
+  .coffee3 h1,
+  .coffee4 h1,
+  .coffee5 h1,
+  .coffee6 h1 {
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
+    font-size: 12px;
+  }
+
+  /* beans description  */
+  .beans-description-left img {
+    width: 170px;
+  }
+  .beans-description-right p {
+    position: absolute;
+    top: 205%;
+    right: -15%;
+    font-size: 11px;
+    margin-left: 30px;
+  }
+  .beans-description-right a {
+    position: absolute;
+    top: 227%;
+    right: 6%;
+  }
+
+  /* cold coffee  */
+  .ice-coffee1,
+  .ice-coffee2,
+  .ice-coffee3,
+  .ice-coffee4 {
+    width: 70px;
+    height: 110px;
+    margin-left: 20px;
+  }
+  .ice-coffee1 img,
+  .ice-coffee2 img,
+  .ice-coffee3 img,
+  .ice-coffee4 img {
+    position: absolute;
+    width: 35px;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .ice-coffee1 h1,
+  .ice-coffee2 h1,
+  .ice-coffee3 h1,
+  .ice-coffee4 h1 {
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    font-size: 10px;
+  }
+
+  /* beans  */
+  .beans1, .beans2, .beans3, .beans4 {
+    width: 70px;
+    height: 100px;
+    position: relative;
+    margin-left: 20px;
+  }
+  .beans1 img, .beans2 img, .beans3 img, .beans4 img {
+    position: absolute;
+    width: 60px;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .beans1 h1, .beans2 h1, .beans3 h1, .beans4 h1 {
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    font-size: 12px;
+  }
+  .footer{
+    margin-left: 25px;
+  }
+}
